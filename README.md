@@ -1,12 +1,8 @@
-# <div align="center">🤖 Happie Bot - Your Intelligent AI Assistant</div>
+# 🤖 Happie Bot - Your Intelligent AI Assistant
 
 <div align="center">
 
-<div class="glow-container">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00F7EE&center=true&vCenter=true&width=435&lines=Your+AI+Assistant;Powered+by+Advanced+AI;Real-time+Chat;Smart+Responses" alt="Typing SVG" />
-</div>
-
-<div class="badge-container">
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00F7EE&center=true&vCenter=true&width=435&lines=Your+AI+Assistant;Powered+by+Advanced+AI;Real-time+Chat;Smart+Responses)](https://git.io/typing-svg)
 
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](https://expressjs.com/)
@@ -15,68 +11,37 @@
 
 </div>
 
-<div class="wave-container">
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-</div>
+## 🌟 Overview
 
-<div class="feature-buttons">
-  <a href="#" class="button">🚀 Live Demo</a>
-  <a href="#" class="button">📚 Documentation</a>
-  <a href="#" class="button">🐛 Report Bug</a>
-  <a href="#" class="button">✨ Request Feature</a>
-</div>
-
-</div>
-
-<br>
-
-<div class="features-grid">
+Happie Bot is an intelligent AI assistant designed to enhance your productivity through natural language interactions, real-time communication, and smart automation capabilities.
 
 ## ✨ Key Features
 
-<div class="feature-card">
-  <h3>🔐 Authentication & Security</h3>
-  
-  - **Google OAuth Integration** - Secure sign-in with Google
-  - **Session Management** - Robust session handling
-  - **Rate Limiting** - Protection against abuse
-  - **Express Security** - Best practices implemented
-</div>
+### 🔐 Authentication & Security
+- **Google OAuth Integration** - Secure sign-in with Google
+- **Session Management** - Robust session handling
+- **Rate Limiting** - Protection against abuse
+- **Express Security** - Best practices implemented
 
-<div class="feature-card">
-  <h3>💬 Real-time Communication</h3>
-  
-  - **WebSocket Integration** - Instant messaging
-  - **Live Updates** - Real-time status updates
-  - **Typing Indicators** - Enhanced UX
-  - **Message History** - Complete chat logs
-</div>
+### 💬 Real-time Communication
+- **WebSocket Integration** - Instant messaging
+- **Live Updates** - Real-time status updates
+- **Typing Indicators** - Enhanced UX
+- **Message History** - Complete chat logs
 
-<div class="feature-card">
-  <h3>🧠 AI Capabilities</h3>
-  
-  - **Natural Language Processing** - Advanced understanding
-  - **Context Awareness** - Smart conversations
-  - **Code Understanding** - Multi-language support
-  - **Smart Suggestions** - Predictive responses
-</div>
+### 🧠 AI Capabilities
+- **Natural Language Processing** - Advanced understanding
+- **Context Awareness** - Smart conversations
+- **Code Understanding** - Multi-language support
+- **Smart Suggestions** - Predictive responses
 
-<div class="feature-card">
-  <h3>🎨 Modern Interface</h3>
-  
-  - **Responsive Design** - All device support
-  - **Dark/Light Themes** - Visual comfort
-  - **Animations** - Smooth transitions
-  - **Customizable UI** - Personal touch
-</div>
-
-</div>
+### 🎨 Modern Interface
+- **Responsive Design** - All device support
+- **Dark/Light Themes** - Visual comfort
+- **Clean UI** - Intuitive experience
+- **Customizable** - Personal touch
 
 ## 🚀 Quick Start
-
-<div class="code-block">
 
 ```bash
 # Clone the repository
@@ -92,32 +57,19 @@ cp .env.example .env
 npm run dev
 ```
 
-</div>
-
 ## 🛠️ Technology Stack
 
-<div class="tech-grid">
-  <div class="tech-card">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40"/>
-    <span>Node.js</span>
-  </div>
-  <div class="tech-card">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40"/>
-    <span>Express</span>
-  </div>
-  <div class="tech-card">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40"/>
-    <span>MongoDB</span>
-  </div>
-  <div class="tech-card">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" width="40"/>
-    <span>Socket.io</span>
-  </div>
-</div>
+| Category | Technologies |
+|----------|-------------|
+| Backend | Node.js, Express.js |
+| Database | MongoDB, Mongoose |
+| Real-time | Socket.io |
+| Authentication | Passport.js, Google OAuth |
+| File Processing | Multer, Sharp |
+| Security | Express Rate Limit, Helmet |
+| Development | Nodemon, Jest |
 
 ## 📊 System Architecture
-
-<div class="architecture-diagram">
 
 ```mermaid
 graph TD
@@ -127,42 +79,36 @@ graph TD
     C -->|Process| E[AI Engine]
     C -->|Store| F[MongoDB Cluster]
     E -->|Query| G[ML Models]
-    style A fill:#ff9900,stroke:#fff,stroke-width:2px
-    style B fill:#00ff00,stroke:#fff,stroke-width:2px
-    style C fill:#0099ff,stroke:#fff,stroke-width:2px
-    style D fill:#ff00ff,stroke:#fff,stroke-width:2px
-    style E fill:#9900ff,stroke:#fff,stroke-width:2px
-    style F fill:#ff0099,stroke:#fff,stroke-width:2px
-    style G fill:#00ffff,stroke:#fff,stroke-width:2px
 ```
-
-</div>
 
 ## 🌟 Performance Metrics
 
-<div class="metrics-container">
-  <div class="metric-card">
-    <h3>99.9%</h3>
-    <p>Uptime</p>
-  </div>
-  <div class="metric-card">
-    <h3><100ms</h3>
-    <p>Response Time</p>
-  </div>
-  <div class="metric-card">
-    <h3>-</h3>
-    <p>Daily Users</p>
-  </div>
-</div>
+| Metric | Value |
+|--------|--------|
+| Uptime | 99.9% |
+| Response Time | <100ms |
+| Daily Users | - |
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🔗 Connect With Us
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](#)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/TVFkDKVxR6)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](#)
+
+---
 
 <div align="center">
-  <p class="footer-text">Made with ❤️ by the Happie Bot Team</p>
   
-  <div class="social-links">
-    <a href="#" class="social-button">Twitter</a>
-    <a href="https://discord.gg/TVFkDKVxR6" class="social-button">Discord</a>
-    <a href="#" class="social-button">GitHub</a>
-  </div>
+Made with ❤️ by the Happie Bot Team
+
 </div>
 
 <style>
